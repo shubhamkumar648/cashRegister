@@ -1,0 +1,45 @@
+* {
+
+padding: 0;
+margin: 0;
+
+
+
+}
+
+
+.heading {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    height: 50vh;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgb(185, 184, 184);
+    font-size: 20px;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .description {
+
+    padding-bottom: 1rem;
+  }
+
+  #checkBtn {
+
+    margin-bottom: 1rem;
+  }

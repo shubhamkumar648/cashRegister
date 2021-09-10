@@ -1,5 +1,5 @@
 //get the element
-const billAmount = document.querySelector("#bill-amount");
+const billAmount = document.querySelector("#billAmount");
 const cashGiven = document.querySelector("#cash-given");
 const checkButton = document.querySelector("#checkBtn");
 const errorMessage = document.querySelector("#error-message");
@@ -7,10 +7,8 @@ const NoOfNotes = document.querySelectorAll(".no-of-notes");
 
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
-checkButton.addEventListener("click", function checkCondition(){
-
-  hideMessage()
-
+checkButton.addEventListener("click", function checkCondition() {
+    hideMessage()
   if (billAmount.value > 0) {
 
     if (cashGiven.value >= billAmount.value) {
@@ -26,9 +24,7 @@ checkButton.addEventListener("click", function checkCondition(){
   } 
  
   else {
-
     ShowMessage("Invalid bill Amount");
-
   }
   
 });
@@ -47,10 +43,6 @@ function hideMessage() {
 
 
 function ShowMessage(message) {
-  errorMessage.style.display = "block";
-  errorMessage.style.color = "red";
-
+  errorMessage.value = "block";
   errorMessage.innerText = message;
 }
-
-

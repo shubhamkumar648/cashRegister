@@ -11,9 +11,9 @@ checkButton.addEventListener("click", function checkCondition(){
 
   hideMessage()
 
-  if (billAmount.value > 0) {
+  if (Number(billAmount.value) > 0) {
 
-    if (cashGiven.value >= billAmount.value) {
+    if (Number(cashGiven.value) >= billAmount.value) {
 
       const amountTobereturned = cashGiven.value - billAmount.value;
 

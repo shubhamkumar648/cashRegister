@@ -1,3 +1,3 @@
-# cashRegister
+<h1> Cash Register </h1>
+helps the user by telling how can you  return the change to the customer with a minimum number of notes
 
-create a  basic project using javaScript,html,css
